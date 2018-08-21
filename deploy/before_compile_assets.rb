@@ -1,1 +1,5 @@
 run "cd #{config.release_path} && yarn"
+run "rails new webpacker-example-app --webpack=react"
+run "rails new webpacker-example-app"
+run "rails webpacker:install"
+run "rails webpacker:install:react"
