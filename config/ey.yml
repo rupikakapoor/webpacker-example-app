@@ -1,0 +1,19 @@
+---
+# This is all you need for a typical rails application.
+defaults:
+  migrate: true
+  migration_command: rake db:migrate
+  precompile_assets: true
+  npm:  false
+  precompile_assets: true
+  precompile_unchanged_assets: true
+  ignore_database_adapter_warning: true
+asset_dependencies:
+- app/assets
+- lib/assets
+- vendor/assets
+- Gemfile.lock
+- config/routes.rb
+- config/application.rb
+- config/requirejs.yml
+- app/javascript
